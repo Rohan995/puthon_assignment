@@ -1,0 +1,5 @@
+n=input(raw_input("enter size of list"))
+alist=list()
+for _ in range(n)
+alist.append(tuple(map(int,raw_input().split)))
+print sorted(arr,key=lambda x:x[-1])
